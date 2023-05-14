@@ -10,11 +10,15 @@ https://sendgrid.com/
 
 
 ## Como inserir a variável no application.properties
+```
 spring.sendgrid.api-key=${SENDGRID_API_KEY}
+```
 
 
 ## Exite uma chave para trocar entre "test" e "dev"
+```
 spring.profiles.active=dev
+```
 
 - Observação: quando essa chave estiver como "spring.profiles.active=test" é feito um retorno 'mockado' para efeito de teste. E quando estiver 
 como "spring.profiles.active=dev" é feita a request na API SendGrid e o email será disparado.
