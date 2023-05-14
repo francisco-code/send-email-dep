@@ -25,7 +25,11 @@ como "spring.profiles.active=dev" é feita a request na API SendGrid e o email s
 
 
 ## Endpoint desse BFF
+```
 /emails
+```
+
+Exemplo no ambiente local: http://localhost:8080/emails
 
 
 ## Body para teste no Postman ou no Insomnia com o verbo POST ou para envio de um frontend que consumirá esse serviço
