@@ -2,11 +2,8 @@
 
 Esta é uma aplicação para disparo de email utilizando a API SendGrid. Antes de utilizar é necessário fazer o cadastro no sendgrid, bem como criar uma chave e depois 
 registrar essa chave como uma variável de ambiente (para testar) e depois cadastrar essa chave na config properties quando for subir o BFF para a núvem.
-Essa aplicação faz o disparo de até 100 email's grátis por dia. Consulte a página do SendGrid para mais informações de planos para transações acima desse limite.
+Essa aplicação faz o disparo de até 100 email's grátis por dia. Consulte a página do SendGrid (https://sendgrid.com/) para mais informações de planos para transações acima desse limite.
 
-
-## Página do SendGrid
-https://sendgrid.com/
 
 
 ## Como inserir a variável no application.properties
